@@ -1,0 +1,6 @@
+hosts: all
+tasks:
+- name: projet test awx
+  debug:
+      msg: "le host est: {{ ansible_hostname }}"
+
