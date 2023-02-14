@@ -1,3 +1,3 @@
 - name: projet test awx
   debug:
-      msg: "le host est: {{ ansible_hostname }}"
+      msg: "le host est: {{ ansible_os }}"
